@@ -129,7 +129,9 @@ class SignUpScreen extends StatelessWidget {
               ],
             ),
             SizedBox(height: h*.0485,),
-            const CustomButton(label: 'Sign up'),
+             CustomButton(label: 'Sign up',onTap: (){
+              Get.toNamed(AppRoutes.verifyCode);
+            },),
             Padding(
               padding: const EdgeInsets.only(left: 96),
               child: Row(

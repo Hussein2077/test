@@ -14,6 +14,7 @@ class AppImageAsset {
   static const String facebookImage= "$rootImages/facebook.png";
   static const String nameImage= "$rootImages/name.png";
   static const String phoneImage= "$rootImages/phone.png";
+  static const String verifyImage= "$rootImages/verify.png";
 
 
 
