@@ -1,4 +1,6 @@
 
+import 'package:on_boarding_and_auth/view/screens/details_screen.dart';
+import 'package:on_boarding_and_auth/view/screens/home_screen.dart';
 import 'package:on_boarding_and_auth/view/screens/intro_screen.dart';
 import 'package:on_boarding_and_auth/view/screens/log_in_screen.dart';
 import 'package:on_boarding_and_auth/view/screens/sign_up_screen.dart';
@@ -15,5 +17,8 @@ Map<String, Widget Function(BuildContext context)> routes = {
   AppRoutes.signUp: (context) => const SignUpScreen(),
   AppRoutes.verifyCode:(context)=> const VerifyScreen(),
   AppRoutes.verifySuccessCode:(context)=> const VerifySuccessScreen(),
+  AppRoutes.homePage:(context)=> const HomeScreen(),
+  AppRoutes.details:(context)=> const DetailsScreen(),
+
 
 };

@@ -15,7 +15,12 @@ class AppImageAsset {
   static const String nameImage= "$rootImages/name.png";
   static const String phoneImage= "$rootImages/phone.png";
   static const String verifyImage= "$rootImages/verify.png";
+  static const String cart= "$rootImages/cart.png";
+  static const String details= "$rootImages/deatails.png";
 
+
+  static const String threeD= "$rootImages/3d.png";
+  static const String fav= "$rootImages/Favourite.png";
 
 
 }
