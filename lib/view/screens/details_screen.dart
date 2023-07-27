@@ -84,17 +84,8 @@ class DetailsScreen extends StatelessWidget {
                   ),
                   Column(
                     children: [
-                      // PageView(
-                      //   scrollDirection: Axis.vertical,
-                      //   reverse: true,
-                      //   children: [
-                      //     Image.asset(AppImageAsset.details),
-                      //     Image.asset(AppImageAsset.details),
-                      //     Image.asset(AppImageAsset.details),
-                      //     Image.asset(AppImageAsset.details),
-                      //
-                      //   ],
-                      // )
+
+
                       Image.asset(AppImageAsset.details),
                       const SizedBox(
                         height: 9,
@@ -185,12 +176,14 @@ class DetailsScreen extends StatelessWidget {
                       '20 \$',
                       style: TextStyle(
                           fontWeight: FontWeight.w400,
-                          fontSize: 14,
+                          fontSize: 16,
                           color: Colors.black),
                     ),
                   ],
                 ),
               ),
+
+
 
             ],
           ),

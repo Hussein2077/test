@@ -15,12 +15,21 @@ class AppImageAsset {
   static const String nameImage= "$rootImages/name.png";
   static const String phoneImage= "$rootImages/phone.png";
   static const String verifyImage= "$rootImages/verify.png";
-  static const String cart= "$rootImages/cart.png";
+  static const String cart= "$rootImages/Cart.svg";
   static const String details= "$rootImages/deatails.png";
 
 
   static const String threeD= "$rootImages/3d.png";
   static const String fav= "$rootImages/Favourite.png";
+  static const String notification= "$rootImages/Notification.svg";
+  static const String favIcon= "$rootImages/favicon.svg";
+  static const String searchFav= "$rootImages/searchfavorite1.svg";
+  static const String rectangle= "$rootImages/Rectangle.png";
+  static const String home= "$rootImages/Group 69.png";
+  static const String category= "$rootImages/category.png";
+  static const String community= "$rootImages/Community.png";
+  static const String profile= "$rootImages/profile.png";
+
 
 
 }

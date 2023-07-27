@@ -1,5 +1,6 @@
 
 import 'package:on_boarding_and_auth/view/screens/details_screen.dart';
+import 'package:on_boarding_and_auth/view/screens/home.dart';
 import 'package:on_boarding_and_auth/view/screens/home_screen.dart';
 import 'package:on_boarding_and_auth/view/screens/intro_screen.dart';
 import 'package:on_boarding_and_auth/view/screens/log_in_screen.dart';
@@ -19,6 +20,7 @@ Map<String, Widget Function(BuildContext context)> routes = {
   AppRoutes.verifySuccessCode:(context)=> const VerifySuccessScreen(),
   AppRoutes.homePage:(context)=> const HomeScreen(),
   AppRoutes.details:(context)=> const DetailsScreen(),
+  AppRoutes.home:(context)=> const Home(),
 
 
 };
