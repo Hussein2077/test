@@ -197,7 +197,7 @@ class HomeScreen extends StatelessWidget {
                       top: h*.02,
                       left: w*.348,
                       child: const Icon(
-                    Icons.favorite_border,
+                    Icons.favorite_border,size: 18,
                     color: AppColor.primaryColor,
                   )),
                   Positioned(
@@ -205,7 +205,9 @@ class HomeScreen extends StatelessWidget {
                       left: w*.27,
                       child: const Text(
                         '3.99 \$',style: TextStyle(
-                        color: AppColor.primaryColor
+                        color: AppColor.primaryColor,
+                        fontSize: 12,
+                        fontWeight: FontWeight.w400
                       ),
                       )),
 
